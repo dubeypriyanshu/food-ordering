@@ -1,0 +1,423 @@
+/* 
+    Author: Vijay Thapa;
+    Theme: Restaurant Food Order;
+    version: 1.0;
+*/
+
+/* CSS for All */
+* {
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.img-curve {
+    border-radius: 15px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-white:hover {
+    color: #ff6b81;
+    /* background-color: white; */
+}
+
+.clearfix {
+    clear: both;
+    float: none;
+}
+
+a {
+    color: #ff6b81;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(46, 201, 244);
+}
+
+/* a:hover {
+    color: black;
+    background-color: sandybrown;
+    padding: 0.7%;
+    border-radius: 4px;
+    border: 0.2px solid rgb(244, 207, 207);
+} */
+
+.btn {
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: #ff4757;
+}
+
+#change {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+
+h2 {
+    color: #747d8c;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.float-container {
+    position: relative;
+
+}
+
+.float-text {
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+
+fieldset {
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+.error {
+    padding: 2%;
+    color: red;
+}
+
+.success {
+    padding: 2%;
+    color: green;
+}
+
+
+/* CSSS for navbar section */
+
+.logo {
+    width: 10%;
+    float: left;
+}
+
+.menu {
+    line-height: 60px;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+
+
+/* CSS for Food SEarch Section */
+
+.food-search {
+    background-image: url(../images/bg.jpg);
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 12% 0;
+}
+
+.food-search input[type="search"] {
+    width: 60%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+/* #text {
+    color: white;
+    border: 2px solid blue;
+    margin: 10px 300px;
+} */
+
+
+/* CSS for Categories */
+.categories {
+    padding: 4% 0;
+}
+
+.box-3 {
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+
+/* CSS for Food Menu */
+.food-menu {
+    background-color: #ececec;
+    padding: 4% 0;
+}
+
+.food-menu-box {
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.food-menu-img {
+    width: 20%;
+    float: left;
+}
+
+.food-menu-desc {
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price {
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+
+.food-detail {
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+
+/* CSS for Social */
+.social ul {
+    list-style-type: none;
+}
+
+.social ul li {
+    display: inline;
+    padding: 1%;
+}
+
+/* for Order Section */
+.order {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.input-responsive {
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.order-label {
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+.select {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact {
+    width: 400px;
+    margin: 0px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form title styles */
+.contact h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form input styles */
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.input-row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    /* Align items vertically */
+    margin-bottom: 15px;
+    /* Adjust spacing */
+}
+
+.input-row label {
+    text-wrap: nowrap;
+    flex: 0 0 100px;
+    /* Set fixed width for label */
+}
+
+.input-row input,
+.input-row textarea {
+    flex: 1;
+    /* Take remaining space */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Submit button styles */
+.contact input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff4757;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Submit button hover styles */
+.contact input[type="submit"]:hover {
+    background-color: #e84151;
+}
+
+
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px) {
+    .logo {
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul {
+        text-align: center;
+    }
+
+    .food-search input[type="search"] {
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn {
+        width: 91%;
+        padding: 2%;
+    }
+
+    .food-search {
+        padding: 10% 0;
+    }
+
+    .categories {
+        padding: 20% 0;
+    }
+
+    h2 {
+        margin-bottom: 10%;
+    }
+
+    .box-3 {
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .food-menu {
+        padding: 20% 0;
+    }
+
+    .food-menu-box {
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+
+    .social {
+        padding: 5% 0;
+    }
+
+    .order {
+        width: 100%;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ff4757;
+    border-radius: 3px;
+}
